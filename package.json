@@ -1,5 +1,5 @@
 {
-    "name": "@flippo/biome",
+    "name": "@flipposoftware/biome",
     "version": "1.0.0",
     "type": "module",
     "exports": {

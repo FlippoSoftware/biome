@@ -28,7 +28,7 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
 
-    // Biome owns formatting for the languages it covers (see `@flippo/biome`'s
+    // Biome owns formatting for the languages it covers (see `@flipposoftware/biome`'s
     // `base.config.jsonc`: js/ts/jsx/tsx/css formatter + `javascript`/`json` blocks). SCSS/LESS
     // are NOT overridden — Biome doesn't parse those — so they still go through
     // eslint-plugin-format/Prettier (see `cssFormatterDisable` in `@flippo/eslint`, which turns
