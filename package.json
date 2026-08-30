@@ -1,46 +1,48 @@
 {
-  "name": "@flippo/biome",
-  "version": "1.0.0",
-  "type": "module",
-  "exports": {
-    "base": {
-      "default": "./src/configs/base.config.jsonc"
+    "name": "@flippo/biome",
+    "version": "1.0.0",
+    "type": "module",
+    "exports": {
+        "base": {
+            "default": "./src/configs/base.config.jsonc"
+        },
+        "react": {
+            "default": "./src/configs/react.config.jsonc"
+        },
+        "storybook": {
+            "default": "./src/configs/storybook.config.jsonc"
+        },
+        "test": {
+            "default": "./src/configs/test.config.jsonc"
+        }
     },
-    "react": {
-      "default": "./src/configs/react.config.jsonc"
+    "files": [
+        "src"
+    ],
+    "scripts": {
+        "lint": "biome lint",
+        "format": "biome format --write",
+        "check": "biome ci ."
     },
-    "storybook": {
-      "default": "./src/configs/storybook.config.jsonc"
+    "keywords": [],
+    "author": "BlackPoretsky (Egor Gorochkin)",
+    "license": "ISC",
+    "packageManager": "pnpm@11.24.0",
+    "peerDependencies": {
+        "@biomejs/biome": "^2.5.11"
     },
-    "test": {
-      "default": "./src/configs/test.config.jsonc"
+    "devDependencies": {
+        "@biomejs/biome": "^2.5.11"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/FlippoSoftware/biome.git"
+    },
+    "homepage": "https://github.com/FlippoSoftware/biome#readme",
+    "bugs": {
+        "url": "https://github.com/FlippoSoftware/biome/issues"
     }
-  },
-  "files": [
-    "src"
-  ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "BlackPoretsky (Egor Gorochkin)",
-  "license": "ISC",
-  "packageManager": "pnpm@10.7.0",
-  "peerDependencies": {
-    "@biomejs/biome": "^2.5.11"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "^2.5.11"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FlippoSoftware/biome.git"
-  },
-  "homepage": "https://github.com/FlippoSoftware/biome#readme",
-  "bugs": {
-    "url": "https://github.com/FlippoSoftware/biome/issues"
-  }
 }
