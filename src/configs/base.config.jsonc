@@ -211,9 +211,15 @@
                             ":BLANK_LINE:",
                             { "type": true, "source": ":NODE:" },
                             ":BLANK_LINE:",
-                            { "type": false, "source": [":PACKAGE:", ":PACKAGE_WITH_PROTOCOL:"] },
+                            {
+                                "type": false,
+                                "source": [":PACKAGE:", ":PACKAGE_WITH_PROTOCOL:"]
+                            },
                             ":BLANK_LINE:",
-                            { "type": true, "source": [":PACKAGE:", ":PACKAGE_WITH_PROTOCOL:"] },
+                            {
+                                "type": true,
+                                "source": [":PACKAGE:", ":PACKAGE_WITH_PROTOCOL:"]
+                            },
                             ":BLANK_LINE:",
                             { "type": false, "source": ":ALIAS:" },
                             ":BLANK_LINE:",

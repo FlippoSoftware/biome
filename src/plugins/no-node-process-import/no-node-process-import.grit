@@ -13,9 +13,5 @@ or {
     `import process from 'node:process'`,
     `import { $specifiers } from 'node:process'`
 } as $import where {
-    register_diagnostic(
-        span = $import,
-        message = "Use the global `process` instead of importing it from 'node:process'.",
-        severity = "error"
-    )
+    register_diagnostic(span=$import, message="Use the global `process` instead of importing it from 'node:process'.", severity="error")
 }

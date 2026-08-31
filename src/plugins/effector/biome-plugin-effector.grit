@@ -22,12 +22,12 @@ language js(typescript, jsx)
 // unverified regex predicates copied from this comment's failed attempts.
 
 `const $name = $init` as $decl where {
-    $init <: or { `createStore($_)`, `restore($_)`, `restore($_, $_)`, `combine($_)`, `combine($_, $_)` },
+    $init <: or {
+        `createStore($_)`,
+        `restore($_)`,
+        `restore($_, $_)`,
+        `combine($_)`,
+        `combine($_, $_)`
+    },
     $name <: not r"^\$|\$$"
-} where {
-    register_diagnostic(
-        span = $decl,
-        message = "Effector stores should be named with a `$` prefix or suffix.",
-        severity = "warn"
-    )
-}
+} where { register_diagnostic(span=$decl, message="Effector stores should be named with a `$` prefix or suffix.", severity="warn") }
