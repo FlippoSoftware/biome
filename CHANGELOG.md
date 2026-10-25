@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/FlippoSoftware/biome/compare/v1.1.1...v1.2.0) (2026-10-25)
+
+
+### Features
+
+* add release configuration and update package hooks ([ac37af5](https://github.com/FlippoSoftware/biome/commit/ac37af56bf038bd4dd74645413bb7bb20df24a64))
+
 ## [1.1.1](https://github.com/FlippoSoftware/biome/compare/v1.1.0...v1.1.1) (2026-08-31)
 
 
