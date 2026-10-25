@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.1](https://github.com/FlippoSoftware/biome/compare/v1.2.0...v1.2.1) (2026-10-25)
+
+
+### Bug Fixes
+
+* add commitlint configuration for enforcing conventional commit m… ([a3d8718](https://github.com/FlippoSoftware/biome/commit/a3d871842ff606598916336183a98a579801e64a))
+* add commitlint configuration for enforcing conventional commit messages ([d977585](https://github.com/FlippoSoftware/biome/commit/d97758510fb8c1f08f72d506e2666c8a5b824d3a))
+
 ## [1.2.0](https://github.com/FlippoSoftware/biome/compare/v1.1.1...v1.2.0) (2026-10-25)
 
 
