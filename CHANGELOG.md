@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.1.1](https://github.com/FlippoSoftware/biome/compare/v1.1.0...v1.1.1) (2026-08-31)
+
+
+### Bug Fixes
+
+* add missing step to install dependencies before publishing to npm ([234798b](https://github.com/FlippoSoftware/biome/commit/234798bca8e279cd8ce092200ebc4613d355d6e6))
+* add missing step to install dependencies before publishing to npm ([98667af](https://github.com/FlippoSoftware/biome/commit/98667affc1e82a873c86a70f0149968a208d779b))
+* update trigger to push on main branch in publish workflow ([54d1229](https://github.com/FlippoSoftware/biome/commit/54d1229c07b13948cca15b286ad3d3a0fe2f233d))
+* update trigger to push on main branch in publish workflow ([0ef4f2f](https://github.com/FlippoSoftware/biome/commit/0ef4f2f2bfa3d57411d62ffd6ac4d193fd058499))
+
 ## [1.1.0](https://github.com/FlippoSoftware/biome/compare/v1.0.0...v1.1.0) (2026-08-31)
 
 
